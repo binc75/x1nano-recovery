@@ -29,7 +29,7 @@ After opening the laptop and removing the battery I identified the chip ***Winbo
 ![Open Laptop](./img/open2.jpg)
 ![Winbond 25R256JVEQ](./img/chip-bios.jpg)
 
-### Programm the chip
+### Program the chip
 I decided to install from source flashrom, detailed information can be found [here](https://www.flashrom.org/dev_guide/building_from_source.html), nothing complicated.  
 
 NOTE: there is no official support to read/write the ***Winbond 25R256JVEQ*** , but there is partial support for similar chips, so I used this command to flash the bios:
